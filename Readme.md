@@ -24,6 +24,7 @@ use "git config --list" to see your configurations
 ```
 
 Use "git status" to see any modifications or updates
+Use "git add -u" when you want just to add updates, it's a shortcut
 
 
 ### Visualize commits
@@ -40,20 +41,20 @@ Use "git status" to see any modifications or updates
 
 ### Changes on files
 
-´´´
+```
 	git diff
 	git diff --name-only
-´´´
+```
 
 ### Removing changes
 
-´´´
+```
 	git reset HEAD (file)
 	git checkout (file)
 	git reset --soft
 	git reset --mixed
 	git reset --hard
-´´´
+```
 
 ## Main book
 * [Git book](https://git-scm.com/book/en/v2) - The Git Book
