@@ -10,7 +10,7 @@ A short text file for a course of git remenber to create a paste for it( use mkd
 	git config --global core.editor editor
 ```
 
-use "git config --list" to see your configurations
+Use "git config --list" to see your configurations.
 
 ### Start a repo
 
@@ -23,8 +23,8 @@ use "git config --list" to see your configurations
  	git push -u origin master 
 ```
 
-Use "git status" to see any modifications or updates
-Use "git add -u" when you want just to add updates, it's a shortcut
+Use "git status" to see any modifications or updates.<br>
+Use "git add -u" when you want just to add updates, it's a shortcut.
 
 
 ### Visualize commits
