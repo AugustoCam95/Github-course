@@ -5,9 +5,9 @@ A short text file for a course of git remenber to create a paste for it( use mkd
 ## Initial configurations
 
 ```
-git config --global user.name "name"
-git config --global user.email email@example.com
-git config --global core.editor editor
+	git config --global user.name "name"
+	git config --global user.email email@example.com
+	git config --global core.editor editor
 ```
 
 use "git config --list" to see your configurations
@@ -15,12 +15,12 @@ use "git config --list" to see your configurations
 ### Start a repo
 
 ```
- git init
- git status
- git add <file1>...<fileN>
- git status
- git commit -m "menssage"
- git push -u origin master 
+ 	git init
+ 	git status
+ 	git add <file1>...<fileN>
+	git status
+ 	git commit -m "menssage"
+ 	git push -u origin master 
 ```
 
 Use "git status" to see any modifications or updates
